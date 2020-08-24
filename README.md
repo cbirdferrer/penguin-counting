@@ -18,3 +18,5 @@ folder
 This toolset was developed using **ArcGIS Desktop 10.5.1**
 
 Instructions are provided as GIS metadata for each tool. The metadata files have also been downloaded as pdfs, they can be found in the [guide docs](https://github.com/cbirdferrer/penguin-counting/tree/master/guide%20docs) folder.
+
+To use, download the repository, then add your data to the data folder.
