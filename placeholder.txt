@@ -1,0 +1,3 @@
+This file is a placeholder in the results folder to keep it from being empty.
+
+You will need a results folder in your file structure for the tool to work.
