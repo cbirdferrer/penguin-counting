@@ -83,7 +83,7 @@ outInt = Int(outInt)
 outInt.save(output)
 
 #Process Raster to Polygon
-outP = "in_memory\\guano_poly_all.shp"
+outP = scratchWS + "\\guano_poly_all.shp"
 arcpy.RasterToPolygon_conversion(outInt,outP,"NO_SIMPLIFY","Value")
 outPoly = scratchWS + "\\guano_poly.shp"
 arcpy.Select_analysis(outP, outPoly, "gridcode > 0")
