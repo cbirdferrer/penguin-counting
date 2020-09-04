@@ -6,13 +6,14 @@ This repository contains the code, file structure, and toolbox set up to be impo
 The required file structure for the ArcGIS toolbox is:
 ```
 folder
+  \PopulationCounting.tbx
   \data
   \scratch
   \results
   \scripts
-    \Step1
-    \Step2
-    \Step3
+    \Step1.py
+    \Step2.py
+    \Step3.py
 ```
 
 This toolset was developed using **ArcGIS Desktop 10.5.1**
